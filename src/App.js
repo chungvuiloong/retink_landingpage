@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import HeroBanner from './components/HeroBanner';
+import Newsletter from './components/Newsletter';
+import ServicesCardLayout from './components/ServicesCardLayout';
+import Slogan from './components/Slogan';
+import VideoBanner from './components/VideoBanner';
+import Freelancer from './components/Freelancer';
+import FeaturesCard from './components/FeaturesCard';
+
+{/* <span class="i">i</span> */}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>
+      <HeroBanner />
+      <VideoBanner />
+      <FeaturesCard />
+      <Slogan />
+      <ServicesCardLayout />
+      <Freelancer />
+      <Newsletter />
+      <Footer />
+
+
+
+
+    </>
   );
 }
 
