@@ -7,6 +7,86 @@
   pointer-events: none;
 }
 
+.animated {
+  text-indent: 8px;
+  color:red;
+}
+
+.animated:before {
+  content: "Logos";
+  animation: topToBottom 5s infinite 3s;
+}
+
+@keyframes topToBottom {
+  0% {
+    content: "Blog Writing";
+  }
+  25% {
+    content: "Animated Videos";
+  }
+  50% {
+    content: "Product Demo";
+  }
+  75% {
+    content: "Copywriting";
+  }
+  100% {
+    content: "Social Media Ads";
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.retink_red_font {
+  color: #cc0000;
+}
+
+.i {  
+  color: #cc0000;
+  position: relative;
+}
+.i:before {
+  content: "ı";
+  position: absolute; 
+  color: black;
+}
+
+/* .footer_sm_logo {
+  width: 15%;
+  height: auto;
+} */
+
+/* Glow effect button */
+.glow_effect:hover {
+  -webkit-animation: glow 1s ease-in infinite;
+          animation: glow 1s ease-in infinite;
+}
+.glow_effect::before {
+  -webkit-animation: glow 1s ease-in infinite;
+          animation: glow 1s ease-in infinite;
+  background: #cc0000;
+  border-radius: inherit;
+  content: "";
+  filter: blur(10px);
+  opacity: 0.75;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.glow_effect:hover::before {
+  filter: blur(20px);
+  opacity: 1;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
