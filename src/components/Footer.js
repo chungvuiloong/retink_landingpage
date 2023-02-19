@@ -31,7 +31,7 @@ const Footer = () => {
                             <hr className="w-100 clearfix d-md-none" />
 
                             <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 ">
-                                <h5 className="mb-4 font-weight-bold">Contact with us</h5>
+                                <h5 className="mb-4 font-weight-bold">Connect with us</h5>
                                 <a href="https://m.facebook.com/retinkmedia" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/null/facebook-new.png" className='footer_sm_logo mr-5' width='10%' alt='facebook_logo'/></a>
                                 <a href="https://twitter.com/retinkmedia" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/null/twitter.png" className='footer_sm_logo mx-2' width='10%' alt='twitter_logo'/></a>
                                 <a href="https://www.instagram.com/retinkmedia/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" className='footer_sm_logo mx-2' width='10%' alt='instagram_logo'/></a>
