@@ -2,6 +2,8 @@
 
 This is a redesigned landing page for Retink.
 
+## Hosted via Vercel https://retink-landingpage.vercel.app/
+
 ## How to start this project
 - Git clone from repository
 - cd retink
@@ -24,6 +26,4 @@ Used the primary colours from retink logo, grey, red, black to design the webpag
 - added floating animation to retink mascot.
 - added clean and clear fonts for reader-friendliness.
 - added social media buttons that links to retinks social media.
-
-## Additional
-- Change purple logos to black with red highlights
+- added new edited logos (with company colours) in features components/ section.
