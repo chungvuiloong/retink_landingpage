@@ -15,23 +15,26 @@
 
 .animated:before {
   content: "Logos";
-  animation: text_change 5s infinite 3s;
+  animation: text_change infinite 10s;
 }
 
 @keyframes text_change {
-  0% {
+  2% {
+    content: "Logos";
+  }
+  16% {
     content: "Blog Writing";
   }
-  25% {
+  32% {
     content: "Animated Videos";
   }
-  50% {
+  48% {
     content: "Product Demo";
   }
   75% {
     content: "Copywriting";
   }
-  100% {
+  94% {
     content: "Social Media Ads";
   }
 }
