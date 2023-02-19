@@ -7,7 +7,7 @@ const Footer = () => {
         <>
             <footer>
                 <div className="text-lg-start text-center bg-opacity-25 bg-secondary">
-                    <div className="container p-4 pb-0">
+                    <div className="container p-4 pb-3">
                     <Header />
                         <section className="pb-4">
                             <div className="row">
