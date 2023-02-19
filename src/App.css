@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+/* Test change animation */
 .animated {
   text-indent: 8px;
   color:red;
@@ -14,10 +15,10 @@
 
 .animated:before {
   content: "Logos";
-  animation: topToBottom 5s infinite 3s;
+  animation: text_change 5s infinite 3s;
 }
 
-@keyframes topToBottom {
+@keyframes text_change {
   0% {
     content: "Blog Writing";
   }
@@ -42,6 +43,22 @@
 .retink_red_font {
   color: #cc0000;
 }
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 35px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
 
 .i {  
   color: #cc0000;
