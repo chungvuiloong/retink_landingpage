@@ -70,10 +70,14 @@
   color: black;
 }
 
-/* .footer_sm_logo {
-  width: 15%;
-  height: auto;
-} */
+.card-body hr {
+  width: 33%;
+  margin-top: -5px;
+  border-bottom: 3px solid #cc0000;
+  border-top: none;
+  opacity: 1;
+}
+
 
 /* Glow effect button */
 .glow_effect:hover {
