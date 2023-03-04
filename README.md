@@ -10,7 +10,7 @@ This is a redesigned landing page for Retink.
 - npm install
 - npm start
 
-## Dependencies
+## Tools & Technologies
 - React
 - HTML
 - CSS
