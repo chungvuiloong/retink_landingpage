@@ -5,7 +5,7 @@ This is a redesigned landing page for Retink.
 ## Hosted via Vercel https://retink-landingpage.vercel.app/
 
 ## How to start this project
-- Git clone from repository
+- Git clone https://github.com/jirimicvl/retink_landingpage
 - cd retink
 - npm install
 - npm start
