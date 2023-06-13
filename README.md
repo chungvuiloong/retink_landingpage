@@ -1,6 +1,6 @@
 # Retink landing page
 
-This is a redesigned landing page for Retink.
+When I applied to Retink Media for internship role, I was given an entry task to create a website according to their Figma design. Using the given Figma design, this redesigned landing page for Retink was created.
 
 ## Hosted via Vercel https://retink-landingpage.vercel.app/
 
